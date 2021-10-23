@@ -1,0 +1,80 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body {
+    background-color: #efefef;
+}
+
+main{
+    width: 70%;
+    padding: 50px;
+    margin: auto;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   c
+}
+
+.photo{
+  width: calc(50% - 40px);
+  height: calc((35vw - 40px) / 16 * 9);
+  margin: 20px;
+  background-color: orange;
+  background-position: center;
+  background-size: cover;
+}
+.photo:hover {
+  transform: rotate(3deg) scale(1.07);
+  box-shadow: 0 0 20px 1px rgba(0,0,0,0.4);
+}
+
+.photo1{
+  background-image: url(../img/Screenshot_1.png);
+}
+
+.photo2{
+  background-image: url(../img/Screenshot_2.png);
+}
+
+.photo3{
+  background-image: url(../img/Screenshot_3.png);
+}
+
+.photo4{
+  background-image: url(../img/Screenshot_4.png);
+}
+
+.photo5{
+  background-image: url(../img/Screenshot_5.png);
+}
+
+.photo6{
+  background-image: url(../img/Screenshot_6.png);
+}
+
+.photo7{
+  background-image: url(../img/Screenshot_7.png);
+}
+
+.photo8{
+  background-image: url(../img/Screenshot_8.png);
+}
+.photo9{
+  background-image: url(../img/Screenshot_9.png);
+}
+.photo10{
+  background-image: url(../img/Мо.png);
+}
+.photo11{
+  background-image: url(../img/maxresdefault.jpg);
+}
+
+h1{
+ width: 100%;
+ text-align: center;
+ font-size: 40px;
+}
